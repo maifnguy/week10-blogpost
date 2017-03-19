@@ -26,62 +26,76 @@
           <small>Optimize UX and Maximize Profits</small></h2>
         <p class= "first">M odern technological advances have given our generation the capacity to get things done immediately. With this expectation of instant gratification, users are generally more impatient, and aren't inclined to wait around while their websites load. In fact, Amazon found that a delay of as little as 100ms could lead to a 1% decrease in sales. Other surveys also show that slow website load time was the main factor in shoppers forgoing a purchase.</p>
         <p>Discoverability is another factor to consider. Google now takes into account page load speed when generating rank search results, making faster website more discoverable. It is also imparative to consider the importance of page load times to enhance user experience. By implementing the appropriate strategies as outlined below, we can increase the speed at which pages load, improve user experience, and potentially boost revenue and discoverability for businesses. Let's get started!</p>
-        <ol>
-          <li><h3>Optimize Images</h3></li>
-            <p>As attractive as they may be, the fact is that images are heavy. On average, images account for roughly 65% of a website’s byte size, and can be an obstacle for delivering your content smoothly. To make sure they are not slowing down your users, be conscious of their sizes. Some ideas:</p>
-              <ul>
-                <li>Pick the right format (JPG, PNG, GIF etc.) for your image <a href="https://webdesign.tutsplus.com/articles/image-types-and-usage-in-web-design--webdesign-1298" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-
-                <li>Eliminate unnecessary background images, and replace them with CSS effects <a href="https://www.w3schools.com/css/css3_gradients.asp" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-                <li>Serve up scaled images that match the user's browser size <a href="https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
-            </ul>
-          
-          <li><h3>Place JS Files at the Bottom of the Page</h3></li>
+        
+        <section>
+          <h3>1. Optimize Images</h3>
+          <p>As attractive as they may be, the fact is that images are heavy. On average, images account for roughly 65% of a website’s byte size, and can be an obstacle for delivering your content smoothly. To make sure they are not slowing down your users, be conscious of their sizes. Some ideas:</p>
+          <ul>
+            <li>Pick the right format (JPG, PNG, GIF etc.) for your image <a href="https://webdesign.tutsplus.com/articles/image-types-and-usage-in-web-design--webdesign-1298" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            <li>Eliminate unnecessary background images, and replace them with CSS effects <a href="https://www.w3schools.com/css/css3_gradients.asp" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+            <li>Serve up scaled images that match the user's browser size <a href="https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/" target="_blank"><i class="fa fa-external-link" aria-hidden="true"></i></a></li>
+          </ul>
+        </section>
+         
+        <section>
+          <h3>2. Place JS Files at the Bottom of the Page</h3>
             <p>If your Javascript code is in a separate file, place the script for the file at the bottom of the page, before the close of the body tag. This is a quick and simple solution that allows the page content to load before your Javascript does. This means that users will not have to wait for the Javascript to load before getting to the actual content of the page.</p>
+        </section>  
           
-          <li><h3>Minify Your Code</h3></li>
+        <section>
+          <h3>3. Minify Your Code</h3>
             <p>Another way to decrease page load times is to optimize your HTML, CSS, and JS files. This can be done by minifying, in which white space, comments, new lines, and indentations are removed. There are many tools out there which can help you minify your files. Simply paste the website's URL, or input the code directly. Here are some resources:</p>
-              <ul>
-                <li><a href="http://www.minifier.org" target="_blank">Minifier</a></li>
-                <li><a href="http://closure-compiler.appspot.com/home" target="_blank">Closure Compiler</a></li>
-              </ul>
+            <ul>  
+              <li><a href="http://www.minifier.org" target="_blank">Minifier</a></li>
+              <li><a href="http://closure-compiler.appspot.com/home" target="_blank">Closure Compiler</a></li>
+            </ul>
+        </section> 
           
-          <li><h3>Make Use of Caching</h3></li>
-            <p>Caching refers to the storage of static files, such as images and objects, in the user's hard drive. This allows pages to load faster, as the files do not need to be retireved each time it is requested. There are plugins that can be installed to enable caching (if you're using WordPress).</p>
+        <section>
+          <h3>4. Make Use of Caching</h3>
+          <p>Caching refers to the storage of static files, such as images and objects, in the user's hard drive. This allows pages to load faster, as the files do not need to be retireved each time it is requested. There are plugins that can be installed to enable caching (if you're using WordPress).</p>
             <ul>
               <li><a href="https://wordpress.org/plugins/w3-total-cache/" target="_blank">W3 Total Cache</a></li>
-              <li><a href="https://wordpress.org/plugins/wp-super-cache/" target="_blank">WP Super Cache</a></li>
+               <li><a href="https://wordpress.org/plugins/wp-super-cache/" target="_blank">WP Super Cache</a></li>
               <li><a href="https://wp-rocket.me" target="_blank">WP Rocket</a></li>
             </ul>
-          
-          <li><h3>Use External Scripts Sparingly</h3></li>
-            <p>External scripts send HTTP requests every time a page is loaded, slowing down a website's load time. Eliminating the following scripts may help to deliver your content more smoothly.</p>
-            <ul>
+        </section>  
+         
+        <section>
+          <h3>5. Use External Scripts Sparingly</h3>
+          <p>External scripts send HTTP requests every time a page is loaded, slowing down a website's load time. Eliminating the following scripts may help to deliver your content more smoothly.</p>  
+            <ul>  
               <li>Bootstrap</li>
               <li>External web fonts</li>
               <li>Icon packs like Font Awesome</li>
               <li>Third party commenting systems</li>
             </ul>
-          
-          <li><h3>Check Your Speed</h3></li>
-            <p>Finally, check how fast your website loads! Resources like Google's <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">PageSpeed Tools</a> can give you a rating of your page's load time, as well as tips on how to enhance your website's overall performance. Just paste the URL to your website, and see how your score improves as you make changes.</p>
-            
-        </ol>
+        </section>  
+        
+        <section>
+          <h3>6. Check Your Speed</h3>
+          <p>Finally, check how fast your website loads! Resources like Google's <a href="https://developers.google.com/speed/pagespeed/insights/" target="_blank">PageSpeed Tools</a> can give you a rating of your page's load time, as well as tips on how to enhance your website's overall performance. Just paste the URL to your website, and see how your score improves as you make changes.</p>
+        </section>
+        
         
         <p>Lastly, it's important to note that not everyone has access to high speed internet. Many users around the world are still on a 3G network or worse. By making efforts to decrease page load times and enhance website performance, we can create pages that are easily accessible to all!</p>
-      
+       
+          
       </article>
     </main>
+    
+    <footer>
+      <ul>
+        <li>&copy; Mai F Nguy, 2017 &#124;</li>
+        <li><a href="https://github.com/maifnguy" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li> <!-- add target="_blank" to open in a new tab -->
+        <li><a href="https://www.linkedin.com/in/mai-nguy-27b34233" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+        <li><a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
+      </ul>
+    </footer>
   </body>
-  
-  <footer>
-    <ul>
-      <li>&copy; Mai F Nguy, 2017 &#124;</li>
-      <li><a href="https://github.com/maifnguy" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a></li> <!-- add target="_blank" to open in a new tab -->
-      <li><a href="https://www.linkedin.com/in/mai-nguy-27b34233" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-      <li><a href="#" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-      <li><a href="#" target="_blank"><i class="fa fa-twitter-square" aria-hidden="true"></i></a></li>
-    </ul>
-  </footer>
 </html>
+  
+  
+  
     
